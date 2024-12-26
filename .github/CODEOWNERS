@@ -1,8 +1,17 @@
 # Restrict all files related to deploying to
 # require lead maintainer approval.
 
-.github/workflows/              @pyca
-.github/CODEOWNERS              @pyca
-CODE_OF_CONDUCT.md              @pyca
-LICENSE                         @pyca
-README.md                       @pyca
+.github/workflows/                @fochoao-alt
+.github/CODEOWNERS                @fochoao-alt
+CHANGELOG.rst                     @fochoao-alt
+README.rst                        @fochoao-alt
+LICENSE                           @fochoao-alt
+LICENSE.APACCHE                   @fochoao-alt
+LICENSE.BSD                       @fochoao-alt
+Cargo.lock                        @fochoao-alt
+Cargo.toml                        @fochoao-alt
+CONTRIBUTING.rst                  @fochoao-alt
+.gitattributes                    @fochoao-alt
+.gitignore                        @fochoao-alt
+.readthedocs.yml                  @fochoao-alt
+ci-constraints-requirements.txt   @fochoao-alt
