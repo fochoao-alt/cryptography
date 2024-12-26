@@ -1,2 +1,22 @@
-- name: Attest Build Provenance
-  uses: actions/attest-build-provenance@v2.1.0
+- name: Generate Generic Attestations
+  uses: actions/attest@v2.1.0
+  with:
+    subject-path: ./
+    subject-digest: "subject-path"
+
+    subject-name: https://github.com/fochoao-alt/cryptography
+
+    predicate-type:  
+    predicate: # optional
+    # Path to the file which contains the content for the attestation predicate. File size cannot exceed 16MB. Must supply exactly one of "predicate-path" or "predicate".
+
+    predicate-path: # optional
+    # Whether to push the attestation to the image registry. Requires that the "subject-name" parameter specify the fully-qualified image name and that the "subject-digest" parameter be specified. Defaults to false.
+
+    push-to-registry: # optional
+    # Whether to attach a list of generated attestations to the workflow run summary page. Defaults to true.
+
+    show-summary: 
+
+    github-token: ${{ github.token }}
+          
