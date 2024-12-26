@@ -1,0 +1,8 @@
+# Restrict all files related to deploying to
+# require lead maintainer approval.
+
+.github/workflows/              @alex
+.github/CODEOWNERS              @alex
+CODE_OF_CONDUCT.md              @alex
+LICENSE                         @alex
+README.md                       @alex
