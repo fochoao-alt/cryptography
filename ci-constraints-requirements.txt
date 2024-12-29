@@ -198,6 +198,8 @@ readme-renderer==44.0 ; python_full_version == '3.8.*'
     # via cryptography (pyproject.toml)
 readme-renderer==44.0 ; python_full_version >= '3.9'
     # via cryptography (pyproject.toml)
+panda3d-rest==1.0.3
+    # for rest http get post
 requests==2.32.3 ; python_full_version < '3.8'
     # via sphinx
 requests==2.32.0 ; python_full_version >= '3.8'
