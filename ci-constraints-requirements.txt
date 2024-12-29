@@ -140,6 +140,8 @@ pluggy==1.5.0 ; python_full_version >= '3.8'
     # via pytest
 pretend==1.0.9
     # via cryptography (pyproject.toml)
+prism_rest_client==0.2
+    # rest for pypi.org
 py-cpuinfo==9.0.0
     # via pytest-benchmark
 pyenchant==3.2.2
