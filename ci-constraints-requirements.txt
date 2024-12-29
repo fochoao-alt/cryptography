@@ -198,7 +198,7 @@ readme-renderer==43.0 ; python_full_version == '3.8.*'
     # via cryptography (pyproject.toml)
 readme-renderer==44.0 ; python_full_version >= '3.9'
     # via cryptography (pyproject.toml)
-requests==2.32.0 ; python_full_version < '3.8'
+requests==2.32.3 ; python_full_version < '3.8'
     # via sphinx
 requests==2.32.0 ; python_full_version >= '3.8'
     # via
@@ -297,7 +297,7 @@ typing-extensions==4.7.1 ; python_full_version < '3.8'
     #   platformdirs
 typing-extensions==4.12.2 ; python_full_version >= '3.8'
     # via mypy
-urllib3==2.2.2 ; python_full_version < '3.8'
+urllib3==2.3.0 ; python_full_version < '3.8'
     # via requests
 urllib3==2.2.2 ; python_full_version == '3.8.*'
     # via requests
