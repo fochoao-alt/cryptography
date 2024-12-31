@@ -202,7 +202,7 @@ panda3d-rest==1.0.3
     # for rest http get post
 requests==2.32.3 ; python_full_version < '3.8'
     # via sphinx
-requests==2.32.0 ; python_full_version >= '3.8'
+requests==2.32.3 ; python_full_version >= '3.8'
     # via
     #   sphinx
     #   sphinxcontrib-spelling
